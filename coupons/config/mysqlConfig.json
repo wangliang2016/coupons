@@ -1,0 +1,13 @@
+{
+  "dev": {
+    "dialect": "mysql",
+    "username": "mec_admin",
+    "password": "abc123",
+    "database": "couponsys",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "timezone": "+08:00",
+    "maxConnections": 100,
+    "maxIdleTime": 300
+  }
+}
