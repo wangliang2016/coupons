@@ -1,0 +1,22 @@
+{
+  "TEMPLATEID": {
+    "type": "int(11)",
+    "allowNull": false,
+    "primaryKey": true
+  },
+  "BRANDCODE": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "DEPTCODE": {
+    "type": "char(8)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "MERCHANTCODE": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false
+  }
+}

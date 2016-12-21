@@ -1,0 +1,29 @@
+{
+  "USERID": {
+    "type": "int(11)",
+    "allowNull": false,
+    "primaryKey": true,
+    "autoIncrement": true
+  },
+  "MERCHANTCODE": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "ROLE": {
+    "type": "tinyint(1)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "USERNAME": {
+    "type": "varchar(16)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "PUBLICKEY": {
+    "type": "text",
+    "allowNull": false,
+    "primaryKey": false
+  }
+}
+    

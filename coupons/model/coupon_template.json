@@ -1,0 +1,104 @@
+{
+  "TEMPLATEID": {
+    "type": "int(11)",
+    "allowNull": false,
+    "primaryKey": true,
+    "comment": null,
+    "autoIncrement": true
+  },
+  "TEMPLATECODE": {
+    "type": "varchar(16)",
+    "allowNull": false,
+    "primaryKey": false,
+    "comment": null
+  },
+  "TEMPLATECONTENT": {
+    "type": "varchar(1024)",
+    "allowNull": true,
+    "primaryKey": false,
+    "comment": null,
+    "defaultValue": null
+  },
+  "DATEEFFECTIVE": {
+    "type": "datetime",
+    "allowNull": true,
+    "primaryKey": false,
+    "comment": null
+  },
+  "DATEEXPIRES": {
+    "type": "datetime",
+    "allowNull": true,
+    "primaryKey": false,
+    "comment": null
+  },
+  "SALIENCE": {
+    "type": "tinyint(3)",
+    "allowNull": true,
+    "primaryKey": false,
+    "comment": null,
+    "defaultValue": null
+  },
+  "MERCHANTCODE": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false,
+    "comment": "劵可使用门店",
+    "defaultValue": null
+  },
+  "DEPTCODE": {
+    "type": "char(8)",
+    "allowNull": true,
+    "primaryKey": false,
+    "comment": "劵可使用门店",
+    "defaultValue": null
+  },
+  "BRANDCODE": {
+    "type": "char(6)",
+    "allowNull": true,
+    "primaryKey": false,
+    "comment": "劵可使用品牌",
+    "defaultValue": null
+  },
+  "TYPECODE": {
+    "type": "tinyint(1)",
+    "allowNull": true,
+    "primaryKey": false,
+    "comment": "劵可使用类型",
+    "defaultValue": null
+  },
+  "COUPONBASE": {
+    "type": "decimal(12,2)",
+    "allowNull": true,
+    "primaryKey": false,
+    "comment": "劵使用条件",
+    "defaultValue": null
+  },
+  "COUPONVALUE": {
+    "type": "decimal(12,2)",
+    "allowNull": true,
+    "primaryKey": false,
+    "comment": "劵可抵扣金额",
+    "defaultValue": null
+  },
+  "TOTALNUMBER":{
+    "type":"INT(11)",
+    "allowNull":true,
+    "primaryKey":false
+  },
+  "HAVEDISTRIBUTED":{
+    "type":"int(11)",
+    "allowNull":true,
+    "primaryKey":false
+  },
+  "TEMPLATEDESCRIPTION":{
+    "type":"text",
+    "allowNull":true,
+    "primaryKey":false
+  },
+  "USERID":{
+    "type":"int(11)",
+    "allowNull":false,
+    "primaryKey":false
+  }
+
+}

@@ -1,0 +1,44 @@
+{
+  "MERCHANTCODE": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": true
+   },
+  "MERCHANTNAME": {
+    "type": "varchar(50)",
+    "allowNull": false,
+    "primaryKey": false
+    },
+  "LEGALPERSON": {
+    "type": "varchar(10)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "COMPANYPROPERTY": {
+    "type": "varchar(20)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "INPUTPERSON": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "INPUTDATE": {
+    "type": "datetime",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "CHECKPERSON": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "CHECKDATE": {
+    "type": "datetime",
+    "allowNull": false,
+    "primaryKey": false
+  }
+}
+
+

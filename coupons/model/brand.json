@@ -1,0 +1,39 @@
+{
+  "BRANDCODE": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": true
+  },
+  "BRANDNAME": {
+    "type": "varchar(50)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "BRANDSTATE": {
+    "type": "char(2)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "INPUTPERSON": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "INPUTDATE": {
+    "type": "datetime",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "CHECKPERSON": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "CHECKDATE": {
+    "type": "datetime",
+    "allowNull": false,
+    "primaryKey": false
+  }
+}
+
+

@@ -1,0 +1,60 @@
+{
+  "COUPONID": {
+    "type": "BIGINT",
+    "allowNull": false,
+    "primaryKey": true,
+    "comment": null,
+    "autoIncrement": true
+  },
+  "COUPONCODE": {
+    "type": "varchar(64)",
+    "allowNull": false,
+    "primaryKey": false,
+    "comment": null
+  },
+  "USERCODE": {
+    "type": "varchar(32)",
+    "allowNull": false,
+    "primaryKey": false,
+    "comment": null
+  },
+  "USERMERCHANTCODE":{
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false,
+    "comment": null
+  },
+  "TEMPLATEID": {
+    "type": "int(11)",
+    "allowNull": false,
+    "primaryKey": false,
+    "comment": null
+  },
+  "STATUS": {
+    "type": "tinyint(1)",
+    "allowNull": false,
+    "primaryKey": false,
+    "comment": null
+  },
+  "USERID": {
+    "type": "varchar(16)",
+    "allowNull": false,
+    "primaryKey": false,
+    "comment": null
+  },
+  "USEBRANDCODE": {
+    "type": "char(6)",
+    "allowNull": true,
+    "primaryKey": false
+  },
+  "USEDEPTCODE": {
+    "type": "char(8)",
+    "allowNull": true,
+    "primaryKey": false
+  },
+  "USEMERCHANTCODE": {
+    "type": "char(6)",
+    "allowNull": true,
+    "primaryKey": false
+  }
+}

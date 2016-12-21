@@ -1,0 +1,54 @@
+{
+  "DEPTCODE": {
+    "type": "char(8)",
+    "allowNull": false,
+    "primaryKey": true
+  },
+  "DEPTNAME": {
+    "type": "varchar(30)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "DEPTSHORTNAME": {
+    "type": "varchar(16)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "ADDRESSCODE": {
+    "type": "char(3)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "TELEPHONE": {
+    "type": "varchar(50)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "FAX": {
+    "type": "varchar(50)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "MANAGER": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "CONTACT": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "CONTACT": {
+    "type": "char(6)",
+    "allowNull": false,
+    "primaryKey": false
+  },
+  "DEPTTYPE": {
+    "type": "char(2)",
+    "allowNull": false,
+    "primaryKey": false
+  }
+}
+
+
